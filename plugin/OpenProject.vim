@@ -20,7 +20,7 @@ function! OpenProject(project_name)
 
   if exists("l:project_folder")
     exec ":cd " . l:project_folder
-    exec ":doautocmd User OpenProject_" . a:project_name
+    exec ":silent! doautocmd User OpenProject_" . a:project_name
   else
     exec "normal \<Esc>"
     echoerr "Invalid project name or folder: " . a:project_name

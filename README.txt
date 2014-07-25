@@ -9,7 +9,7 @@
 CONTENTS                                                OpenProject-contents
 
     1. Intro.....................................|OpenProject-intro|
-    2. Usage.....................................|OpenProject-Usage|
+    2. Usage.....................................|OpenProject-usage|
     2. Variables.................................|OpenProject-variables|
         2.1. g:OpenProject#folder_prefix.........|g:OpenProject#folder_prefix|
         2.2. g:OpenProject#projects..............|g:OpenProject#projects|
@@ -23,7 +23,7 @@ CONTENTS                                                OpenProject-contents
 OpenProject is a utility to open folders as "projects"
 
 ==============================================================================
-2. Usage
+2. Usage                                                   *OpenProject-usage*
 
 OpenProject creates a command with the same name, where you can open
 predefined projects or even arbitrary folders.
